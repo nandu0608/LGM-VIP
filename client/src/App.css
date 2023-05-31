@@ -1,0 +1,74 @@
+.pg{
+  display: flex;
+  gap: 2rem;
+}
+.left-pg{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  
+    
+}
+.left-pg input{
+   border-radius: 5px;
+  height: 2rem;
+}
+.left-pg input:hover{
+  border: 2px solid blueviolet;
+}
+.left-pg h2{
+  text-align: center;
+}
+.left-pg div{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 1rem;
+  margin: 1rem;
+}
+.left-pg button{
+  padding: 10px;
+  border-radius: 12px;
+  width: 6rem;
+  background-color: blueviolet;
+  border: 2px solid black;
+  margin-left: 1rem;
+}
+.left-pg button:hover{
+  background-color: black;
+  color: blueviolet;
+}
+.right-pg{
+  width: 50%;
+  margin: 2rem;
+}
+
+.right-pg div{
+  margin: 1rem;
+}
+.right-pg h1{
+  text-align: center;
+}
+.card{
+  display: flex;
+  border: 2px solid black;
+ 
+  align-items:  center;
+  
+}
+.card img{
+  width: 80%;
+
+}
+.data{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: start;
+  align-content: flex-start;
+}
+.data h3{
+  display: flex;
+  font-size: small;
+}
